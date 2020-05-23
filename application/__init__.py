@@ -29,6 +29,7 @@ def create_app(test_config=None):
 
     return app
 
-# if __name__ == "__main__":
-#     create_app()
+if __name__ == "__main__":
+    app = create_app()
+    app.run(threaded=True, port=5000)
 #  instance_relative_config=True
