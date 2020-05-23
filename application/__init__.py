@@ -31,5 +31,5 @@ def create_app(test_config=None):
 
 if __name__ == "__main__":
     app = create_app()
-    app.run(threaded=True, port=5000)
+    app.run(threaded=True, port=6000)
 #  instance_relative_config=True
